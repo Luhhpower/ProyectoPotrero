@@ -1,6 +1,20 @@
 body {background-image:url("../Imagenes/acuarela.webp") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: aquamarine;}
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: aquamarine;}
 
-.titulo {color: blueviolet;}
+.titulo {color: rgb(31, 76, 82); 
+         text-decoration-line: underline ; 
+         text-align: center;
+         font-size: 500% ;}
+
+.subtitulo {text-align: center;
+            font-size: 200% ;}
+
+.descripcion {text-align: center;}  
+
+.subt {color: rgb(31, 56, 2);
+ text-decoration-line: underline;}
+
+ .receta {font-size: 200%;
+          text-decoration-line: underline;}
