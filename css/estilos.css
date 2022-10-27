@@ -5,6 +5,25 @@ body {
   background-color: aquamarine;
 }
 
+.titpag {
+  color: rgb(10, 92, 44);
+  text-decoration-line: underline;
+  text-decoration-color: white;
+  text-align: center;
+  font-size: 550%;
+}
+
+header {
+  background-color: red;
+}
+nav {
+  text-align: center;
+  font-size: 150%;
+}
+
+section {
+  background-image: url(../Imagenes/italia.jpg.webp);
+}
 .titulo {
   color: rgb(31, 76, 82);
   text-decoration-line: underline;
@@ -34,9 +53,24 @@ body {
 .imgcont {
   margin: auto;
   width: fit-content;
-  
 }
 
 .img {
-   width: 450px;
+  width: 450px;
+}
+
+.facebook {
+  width: 100px;
+}
+.twitter {
+  width: 100px;
+}
+.instagram {
+  width: 100px;
+}
+.whatsapp {
+  width: 100px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
