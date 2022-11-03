@@ -4,21 +4,45 @@ body {
   background-size: cover;
   background-color: aquamarine;
 }
+.logo {width: 30% ;
+display: flex;
+justify-content: flex-start;
+border-style: dotted;
+border-color: black;
+}
 
 .titpag {
   color: rgb(10, 92, 44);
   text-decoration-line: underline;
   text-decoration-color: white;
   text-align: center;
-  font-size: 550%;
+  font-size: 400%;
+
 }
 
 header {
-  background-color: red;
+  background-color: rgb(218, 153, 153);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  
+} 
+.redes {
+  font-size: small;
+display: flex;
+justify-content: flex-end;
+height: fit-content;
+border-color: rgb(20, 31, 31);
+border-style: dashed
+; 
 }
+
 nav {
   text-align: center;
   font-size: 150%;
+ 
 }
 
 section {
@@ -59,18 +83,30 @@ section {
   width: 450px;
 }
 
+footer {display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.barrio {height: fit-content;
+  width:fit-content ;
+display: flex;
+justify-content: flex-start;}
+
+
 .facebook {
-  width: 100px;
+  width: 50px;
 }
 .twitter {
-  width: 100px;
+  width: 50px;
 }
 .instagram {
-  width: 100px;
+  width: 50px;
 }
 .whatsapp {
-  width: 100px;
+  width: 75px;
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 9px;
+  right: 9px;
 }
+a{text-decoration: none;}
