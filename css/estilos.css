@@ -1,12 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Marhey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-image: url("../Imagenes/acuarela.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: aquamarine;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marhey&display=swap');
 
 .logo {
   width: 30%;
@@ -15,19 +19,14 @@ body {
   border-style: dotted;
   border-color: black;
 }
-section {width: 100%;
-}
-
-
 
 .titpag {
-
   color: rgb(10, 92, 44);
   text-decoration-line: underline;
   text-decoration-color: white;
-  text-align: center;
   font-size: 400%;
-  
+  margin: auto;
+  font-family: 'Rubik Distressed', cursive;
 }
 
 header {
@@ -35,6 +34,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* width: 100vw; */
 }
 a:hover {
   color: rgb(160, 223, 34);
@@ -52,7 +52,7 @@ a:hover {
 nav {
   text-align: center;
   font-size: 150%;
-  font-family: 'Rubik Bubbles', cursive;
+  font-family: "Rubik Bubbles", cursive;
 }
 
 .sectionprincipal {
@@ -72,7 +72,7 @@ nav {
   text-decoration-line: underline;
   text-align: center;
   font-size: 500%;
-  font-family: 'Marhey', cursive;
+  font-family: "Marhey", cursive;
 }
 
 .subtitulo {
@@ -87,27 +87,38 @@ nav {
 .subt {
   color: rgb(31, 56, 2);
   text-decoration-line: underline;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
-
+.contreceta {
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
 .receta {
   font-size: 200%;
   text-decoration-line: underline;
 }
-
+.video {
+  margin-left: 3%;
+}
 .imgcont {
   margin: auto;
   width: fit-content;
 }
-
-.img {
-  width: 450px;
+.mapa1 {
+  margin-left: 3%;
 }
-
+.img {
+  width: 80vw;
+}
 
 footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+.flotante:hover {
+  filter: none;
 }
 
 .barrio {
@@ -131,6 +142,9 @@ footer {
   position: fixed;
   bottom: 9px;
   right: 9px;
+}
+.whatsapp:hover {
+  scale: 1.1;
 }
 a {
   text-decoration: none;
