@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Marhey&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +26,7 @@ body {
   text-decoration-color: white;
   font-size: 400%;
   margin: auto;
-  font-family: 'Rubik Distressed', cursive;
+  font-family: "Rubik Distressed", cursive;
 }
 
 header {
@@ -101,12 +101,20 @@ nav {
 .video {
   margin-left: 3%;
 }
+.video iframe {
+  width: 30vw;
+  height: 20vw;
+}
 .imgcont {
   margin: auto;
   width: fit-content;
 }
 .mapa1 {
   margin-left: 3%;
+}
+.mapa1 iframe {
+  width: 30vw;
+  height: 20vw;
 }
 .img {
   width: 80vw;
