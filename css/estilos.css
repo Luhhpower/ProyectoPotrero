@@ -91,7 +91,7 @@ nav {
   margin-top: 2%;
 }
 .contreceta {
-  margin-left: 3%;
+  margin-left: 5%;
   margin-bottom: 2%;
 }
 .receta {
@@ -102,8 +102,8 @@ nav {
   margin-left: 3%;
 }
 .video iframe {
-  width: 30vw;
-  height: 20vw;
+  width: 60vw;
+  height: 40vw;
 }
 .imgcont {
   margin: auto;
@@ -113,8 +113,8 @@ nav {
   margin-left: 3%;
 }
 .mapa1 iframe {
-  width: 30vw;
-  height: 20vw;
+  width: 60vw;
+  height: 40vw;
 }
 .img {
   width: 80vw;
