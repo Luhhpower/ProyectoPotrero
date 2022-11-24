@@ -151,9 +151,30 @@ footer {
   bottom: 9px;
   right: 9px;
 }
+.flotantepizza {
+  width: 75px;
+  position: fixed;
+  bottom: 85px;
+  right: 9px;
+}
+
 .whatsapp:hover {
   scale: 1.1;
 }
 a {
   text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .contacto {
+    color: blue;
+  }
+}
+@media (orientation: landscape) and (max-width: 500px) {
+  .titulo {
+    color: rgb(66, 134, 21);
+  }
+}
+@media (min-width: 767px){
+.flotantepizza {display: none;}
 }
