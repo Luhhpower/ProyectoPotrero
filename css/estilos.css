@@ -175,6 +175,8 @@ a {
     color: rgb(66, 134, 21);
   }
 }
-@media (min-width: 767px){
-.flotantepizza {display: none;}
+@media (min-width: 767px) {
+  .flotantepizza {
+    display: none;
+  }
 }
