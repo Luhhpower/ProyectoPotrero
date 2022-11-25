@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Marhey&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +35,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* width: 100vw; */
+ 
 }
 a:hover {
   color: rgb(160, 223, 34);
@@ -51,8 +52,8 @@ a:hover {
 
 nav {
   text-align: center;
-  font-size: 150%;
-  font-family: "Rubik Bubbles", cursive;
+  font-size: 50%;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .sectionprincipal {
