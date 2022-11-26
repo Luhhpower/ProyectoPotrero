@@ -15,10 +15,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css\estilos.css" />
+    <script>
+      alert("Estas por conocer una de las mejores recetas para pascuas;)");
+    </script>
   </head>
   <div class="Cuerpo">
     <body>
-      <header>
+      <header id="header">
         <img class="logo" src="./Imagenes/logo.png" alt="logo" />
         <h1 class="titpag">DE ITALIA AL MUNDO</h1>
         <div class="redes">
@@ -47,6 +50,9 @@
         <a href="contactos.html">
           <button type="button" class="btn btn-primary">CONTACTO</button>
         </a>
+
+        <button onclick="modoNocturno()" type="button" class="btn btn-primary">Modo Nocturno</button>
+
         <br />
         <br />
         <div class="conteiner">
@@ -284,11 +290,9 @@
             />
           </a>
         </div>
-        <h2>
-          Lucía Marcenaro
-          <br />
-          Lucia95mar@gmail.com
-        </h2>
+        <button class="datoscreador" onclick="datos()">
+          Datos del creador
+        </button>
       </footer>
       <img class="flotantepizza" src="./Imagenes/pizza.png" alt="Pizza" />
 
@@ -301,6 +305,19 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"
       ></script>
+      <script>
+        function datos() {
+          alert("Autora: Lucia Marcenaro EMAIL: lucia95mar@gmail.com");
+        }
+        function modoNocturno() {
+          document.body.style.backgroundColor= "black";
+          document.body.style.backgroundImage= "none" ;
+          document.getElementsByClassName("sectionprincipal")[0].style.backgroundImage= "none";
+          document.getElementById("header").style.backgroundColor= "black" ;
+        document.body.style.color= "white"
+        document.getElementsByClassName("conteiner")[1].style.color="black"
+        }
+      </script>
     </body>
   </div>
 </html>

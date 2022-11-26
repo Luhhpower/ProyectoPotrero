@@ -30,7 +30,7 @@ body {
   font-family: "Rubik Distressed", cursive;
 }
 
-header {
+#header {
   background-color: rgb(218, 153, 153);
   display: flex;
   flex-wrap: wrap;
@@ -157,6 +157,13 @@ footer {
   position: fixed;
   bottom: 85px;
   right: 9px;
+}
+.datoscreador {
+  
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 3rem;
+  background-color: rgb(102, 86, 175);
 }
 
 .whatsapp:hover {
